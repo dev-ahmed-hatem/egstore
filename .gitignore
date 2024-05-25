@@ -1,0 +1,43 @@
+# Virtual environment
+venv/
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Django
+#*.sqlite3
+#media/
+#staticfiles/
+#local_settings.py
+
+# IDE/Editor
+.vscode/
+.idea/
+.vs/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# Dependency management
+*.lock
+pip-selfcheck.json
+requirements.txt
+Pipfile
+Pipfile.lock
+
+# System/Temporary files
+.DS_Store
+Thumbs.db
+
+# Logs and cache
+*.log
+*.bak
+cache/
+
+# Configuration
+.env
+*.ini
+*.conf
+*.env.*
